@@ -1,0 +1,10 @@
+str = "This is my favourite language among all"
+print(str)
+print(str[0])
+print(str[-1])
+print(str[2:10])
+print(str.replace("my","your"))
+print(str.replace("l","s"))
+print(str.count("l"))
+print(str.split(" "))
+print(str.find("f"))

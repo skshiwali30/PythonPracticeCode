@@ -1,0 +1,12 @@
+tup1 = (1, "aarya", True, 4.5, 3+9j)
+print(tup1[0])
+print(tup1[-1])
+print(tup1[1:3])
+# tup1[1] = "shiwali" does not support assignment operator TypeError
+print(len(tup1))
+tup2 = (2, 4, 1)
+print(tup1 + tup2)
+print(tup2 + tup1)
+print(tup1*2)
+print(min(tup2))
+print(max(tup2))

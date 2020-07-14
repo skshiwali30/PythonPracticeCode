@@ -1,0 +1,15 @@
+l1 = [5, "sparta", 7, True, 9.8]
+print(type(l1))
+print(l1[0])
+print(l1[-1])
+print(l1[2:4])
+l1.append("joker")
+print(l1.pop())
+l1.reverse()
+print(l1)
+l1.insert(2, 9.7)
+print(l1)
+l2 = [56, 34, 90, 11, 98]
+l2.sort()
+print(l2)
+print(l1 + l2)
